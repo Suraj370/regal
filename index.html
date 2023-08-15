@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regal Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f979f62921.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <header class="site__header">
+        <div class="site__logo">
+            <img src="assets/regal_store.png" alt="">
+        </div>
+
+        <nav class="site__navbar">
+            <ul>
+                <li>Home</li>
+                <li>Shop</li>
+                <li>Products</li>
+                <li>About</li>
+            </ul>
+        </nav>
+
+        <div class="account">
+            <a href="/login">Login</a>
+            <a class = 'border-2 p-2 border-orange-400' href="/sign up">Signup</a>
+        </div>
+    </header>
+
+    
+    <section class="bg-orange-100">
+        <!-- hero section -->
+        <section class="hero__section">
+            <div class="hero__text">
+                <h1 class="flex-1 font-semibold text-[52px] leading-[75px] mx-2 font-poppins">
+                    Color your days
+                </h1>
+                <h1 class="flex-1 font-semibold text-[52px] leading-[75px] mx-2 font-poppins">
+                    and make your story
+                </h1>
+                <p class=" max-w-[500px] text-lg mt-5 text-slate-500">
+                    Don't worry today we are here for you
+                    to provide what you need color  your day
+                    and lets make a beautiful story today.
+                </p>
+                <a href="/shop">
+                    <button  href="/shop" class=" text-slate-100 mt-5 p-5 bg-slate-950">
+                      Shop Now
+                    </button>
+                </a>
+            </div>
+            <div class="hero__image">
+                <img src="assets/women_img.png" alt="">
+            </div>
+        </section>
+
+
+        <!-- quote -->
+        <section class="quote">
+            <blockquote class="max-w-[780px]">
+                <p>
+                    "Your appearance today is a reflection of your condition today ,
+                    so you choose your best outfit for your best day today"
+                </p>
+                <cite>
+                    - Sir Alexis -
+                </cite>
+            </blockquote>
+        
+        </section>
+
+        <!-- carousel -->
+        <section class="carousel">
+        
+            <div class="carousel__item group">
+                <img class="group-hover:brightness-50" src="assets/carousel/image-1.jpg"  style="width:100%">
+                <div class="border-t-2 border-b-2 m-4 animate-pulse border-slate-50 flex-col text-center hidden  group-hover:flex absolute text-slate-50 ">
+                    <h1>Beach Wear</h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto necessitatibus minima distinctio impedit, dignissimos recusandae, eveniet dolor adipisci a alias ducimus ipsa.
+                    </p>
+                </div>
+        
+            </div>
+            <div class="carousel__item group">
+                <img class="group-hover:brightness-50" src="assets/carousel/image-2.jpeg"  style="width:100%">
+                <div class=" border-t-2 border-b-2 m-4 animate-pulse border-slate-50 flex-col text-center hidden  group-hover:flex absolute text-slate-50 ">
+                    <h1>Party Wear</h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto necessitatibus minima distinctio impedit, dignissimos recusandae, eveniet dolor adipisci a alias ducimus ipsa.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel__item  group ">
+                <img class="group-hover:brightness-50" src="assets/carousel/image-3.jpg"  style="width:100%">
+                <div class=" border-t-2 border-b-2 m-4 animate-pulse border-slate-50 flex-col text-center hidden  group-hover:flex absolute text-slate-50">
+                    <h1>Office Wear</h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto necessitatibus minima distinctio impedit, dignissimos recusandae, eveniet dolor adipisci a alias ducimus ipsa.
+                    </p>
+                </div>
+                </p>
+            </div>
+        </section>
+        
+        <section class="showcase">
+            <div class="showcase__item h-auto">
+                <img src="assets/showcase/casual_trouser.jpg" alt="">
+                <div class="p-2">
+                    <div class="flex justify-between ">
+                        <p>Men Calsual Trouser</p>
+                        <i class="fa-regular fa-heart" style="color: #1a1a1a;"></i>
+                    </div>
+                    <p>Rs. 1289</p>
+                </div>
+            </div>
+            <div class="showcase__item h-auto">
+                <img src="assets/showcase/casual_jacket.jpg" alt="">
+                <div class="p-2">
+                    <div class="flex justify-between ">
+                        <p>Men Casual Jacket</p>
+                        <i class="fa-regular fa-heart" style="color: #1a1a1a;"></i>
+                    </div>
+                    <p>Rs. 1789</p>
+                </div>
+            </div>
+        
+            <div class="showcase__item h-auto">
+                <img src="assets/showcase/women_blazzer.jpg" alt="">
+                <div class="p-2">
+                    <div class="flex justify-between ">
+                        <p>Women Blazzer</p>
+                        <i class="fa-regular fa-heart" style="color: #1a1a1a;"></i>
+                    </div>
+                    <p>Rs. 1289</p>
+                </div>                
+            </div>
+        </section>
+
+        <section class = "perfect__collection">
+            <div class="perfectcollection_text">
+                <h1 class="flex-1 font-semibold text-[52px] leading-[75px] mx-2 font-poppins">
+                   The Perfect<br/> Collection
+                </h1>
+
+                <p class=" max-w-[500px] text-lg mt-5 text-slate-500">
+                    A collection of various kinds of fashion with
+                    various styles, brands and trend of the year
+                    so, you can choose what you want 
+                </p>
+                <a href="/explore">
+                <button  href="/shop" class=" text-slate-950 mt-5 p-5 bg-white border-2 border-slate-950">
+                  Explore Collection
+                </button>
+              </a>
+
+            </div>
+            <div class="perfectcollection__image">
+                <img src="assets/perfect__collection.jpg" alt="" class="h-1/2 w-[420px]">
+            </div>
+        </section>
+
+        <section class=" grid grid-col-1 md:grid-cols-2 gap-1 m-auto p-2 ">
+            <div class="flex m-auto items-center relative">
+                <img src="assets/shop_women.png" alt="" class="h-[512px]">
+                <div class=" text-4xl w-full font-poppins font-extrabold p-2 backdrop-blur-sm bg-white/30 text-center absolute text-slate-950 ">
+                    <h1>Shop Women</h1>
+                   
+                </div>
+
+            </div>
+            <div class="flex m-auto items-center relative">
+                <img src="assets/shop_men.png" alt="" class="h-[512px]">
+                <div class=" text-4xl font-poppins font-extrabold  p-2 w-full backdrop-blur-sm bg-white/30 text-center absolute text-slate-950 ">
+                    <h1>Shop Men</h1>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="flex justify-center items-center mt-5 w-full m-auto p-10">
+            <img src="assets/home.png" alt="" class=" w-[900px] h-[420px]">
+        </section>
+    </section>
+
+    <footer>
+        <div class=" mx-6 py-10 text-center md:text-left">
+            <div class="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+                <div>
+                    
+                    <div class="site__logo">
+                        <img src="assets/regal_store.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <h6 class="mb-4 flex justify-center font-semibold  uppercase md:justify-start">
+                        Products
+                    </h6>
+                    <p class="mb-4">
+                        <a href="#" class="text-slate-600  ">
+                            Men
+                        </a>
+                    </p>
+                    <p class="mb-4">
+                        <a href="#" class="text-slate-600  ">
+                            Women
+                        </a>
+                    </p>
+                    <p class="mb-4">
+                        <a href="#" class="text-slate-600  ">
+                            Kids
+                        </a>
+                    </p>
+                </div>
+                <div>
+                    <h6 class="mb-4 flex justify-center font-semibold  uppercase md:justify-start">
+                        Useful Links
+                    </h6>
+                    <p class="mb-4">
+                        <a href="#" class="text-slate-600  ">
+                            Profile
+                        </a>
+                    </p>
+                    <p class="mb-4">
+                        <a href="#" class="text-slate-600  ">
+                            Cart
+                        </a>
+                    </p>
+                    <p class="mb-4">
+                        <a href="#" class="text-slate-600  ">
+                            Recent purchases
+                        </a>
+                    </p>
+                    <p class="mb-4">
+                        <a href="#" class="text-slate-600  ">
+                            Help
+                        </a>
+                    </p>
+                </div>
+                <div>
+                    <h6 class="mb-4 flex justify-center font-semibold  uppercase md:justify-start">
+                        Contact
+                    </h6>
+                    <div class=" flex gap-1 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                          </svg>
+                          
+                        <p class="mb-4 text-slate-600">
+                            London, LN001, UK
+                        </p>
+                    </div>
+                   
+                    <div class=" flex gap-1 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                          </svg>                          
+                          
+                        <p class="mb-4 text-slate-600">
+                            info@regaalstore.com
+                        </p>
+                    </div>
+                    <div class=" flex gap-1 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                          </svg>
+                                                  
+                          
+                        <p class="mb-4 text-slate-600">
+                            +01 1234567890
+                        </p>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+</body>
+</html>

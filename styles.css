@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@100&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    /* header */
+
+    .site__header{
+        @apply  px-20 py-2 items-center flex justify-between 
+    }
+     .site__logo{
+        @apply h-20 w-32 flex items-center 
+    }
+    .site__navbar{
+        @apply hidden items-center justify-center  md:flex 
+    }
+
+    .site__navbar ul{
+        @apply flex gap-3 items-center select-none cursor-pointer 
+    }
+
+    .site__navbar ul li{
+        @apply text-slate-400 hover:text-slate-800 text-lg transition duration-700 
+    }
+
+    .account{
+        @apply flex  items-center gap-2
+    }
+
+    /* hero section */
+    .hero__section{
+        @apply flex flex-col md:flex-row  items-center
+    }
+
+    .hero__text{
+        @apply flex-1 flex-col  sm:px-16 px-6 justify-center h-full 
+    }
+
+    .quote{
+        @apply  text-lg font-poppins font-semibold px-10 py-5 text-center flex justify-center  
+    }
+
+    .carousel{
+        @apply flex m-auto mx-10   justify-center border-b-2 border-orange-600 relative
+    
+    }
+
+
+    .carousel__item{
+        @apply flex items-center  object-cover h-[512px] relative  cursor-pointer
+    }
+    .carousel__item img{
+        @apply p-2 object-cover h-[512px] w-[482px] 
+    }
+
+    
+
+  
+
+    .showcase{
+        @apply flex flex-wrap m-auto mx-10   justify-center   relative
+    
+    }
+
+    .showcase__item{
+        @apply flex flex-col   justify-center  object-cover h-[512px] relative  cursor-pointer
+    }
+    .showcase__item img{
+        @apply p-2  h-[482px] w-[300px] 
+    }
+
+    .perfect__collection{
+        @apply flex flex-col md:flex-row  items-center
+    }
+    .perfectcollection_text{
+        @apply flex-1 flex-col  sm:px-16 px-6 justify-center h-full 
+    }
+
+    .perfectcollection__image{
+        @apply h-[720px] w-[600px] object-cover flex flex-col justify-center items-center
+    }
+
+    footer{
+        @apply bg-white  text-center text-slate-900 lg:text-left font-montserrat
+    }
+
+    
+
+    
+   
+
+ 
+}
